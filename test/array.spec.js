@@ -57,7 +57,7 @@ describe('Array', () => {
       var result3 = array1.join('+');
 
       expect(result1).toEqual('290,39,34,-5,0,-56,a');
-      expect(result2).toEqual('290 39` 34 -5 0 -56 a');
+      expect(result2).toEqual('290 39 34 -5 0 -56 a');
       expect(result3).toEqual('290+39+34+-5+0+-56+a');
    });
 
